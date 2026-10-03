@@ -1,0 +1,70 @@
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components; */
+/* @tailwind utilities; */
+
+:root {
+  --canvas: #eef3f3;
+  --surface: #f8fbfa;
+  --surface-raised: #ffffff;
+  --border: #d7e4e1;
+  --border-soft: #cfe0dc;
+  --text-primary: #193c40;
+  --text-secondary: #57716f;
+  --text-muted: #829996;
+  --navy-teal-900: #173f43;
+  --teal-800: #205951;
+  --teal-700: #277e78;
+  --teal-600: #338b89;
+  --mint-100: #dff7ed;
+  --mint-200: #dceee8;
+  --online: #2dbb79;
+  --online-text: #167653;
+  --online-bg: #dff7ed;
+  --warning: #d89c38;
+  --warning-text: #9a6515;
+  --warning-bg: #fff0cf;
+  --offline: #cf6971;
+  --offline-text: #b04650;
+  --offline-bg: #fbe2e3;
+  --critical: #b94a55;
+  --critical-text: #8e303a;
+  --critical-bg: #f7d9dc;
+  --info: #4f83a5;
+  --info-text: #35657f;
+  --info-bg: #e4f0f7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--canvas);
+  color: var(--text-primary);
+  font-family: var(--font-dm-sans), Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-mono {
+  font-family: var(--font-space-mono), "Courier New", monospace;
+}
+
+::selection {
+  background: var(--mint-200);
+  color: var(--navy-teal-900);
+}
